@@ -123,7 +123,7 @@
 }
 .logotxt{
 
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
     .navItem{
@@ -142,7 +142,7 @@
 
 
 .searchIcons{
-    font-size: 1.4rem;
+    font-size: 1.0rem;
    
   
 }
@@ -158,7 +158,7 @@
       .menu{
          grid-area: menu;
           display: block;
-        font-size: 1.3rem;
+        font-size: 1.0rem;
         cursor: pointer;
         margin-right: 20px;
 
