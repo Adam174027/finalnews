@@ -1,0 +1,23 @@
+
+
+.container{
+    width: 400px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.headline{
+    font-size: 1.8rem;
+}
+
+.time{
+    font-size: 1rem;
+}

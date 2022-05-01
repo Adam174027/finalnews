@@ -1,0 +1,24 @@
+.container{
+    height: 215px;
+    
+    width: 100%;
+    display: flex;
+    overflow-x :scroll;
+
+}
+.container::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    
+}
+.container::-webkit-scrollbar-track{
+   width: 5px;
+  
+  color: red;
+}
+
+.container::-webkit-scrollbar-thumb{
+  background-color: pink;
+  border-radius: 5px;
+}
+

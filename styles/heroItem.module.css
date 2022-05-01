@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.container{
+    width: 100%;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    position: relative;
+}
+.image{
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    object-fit: cover;
+}
+.headline{
+    font-size: 1.2rem;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    
+}
+
+.container a{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  color: black;
+  transition: color 1s ease-in-out;
+}
+.container a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+.time{
+    font-size: 1.0rem;
+}
+.container:nth-child(1){
+    grid-area: first;
+}
+.container:nth-child(2){
+    grid-area: second;
+}
+.container:nth-child(3){
+    grid-area: third;
+}
+.container:nth-child(4){
+    grid-area: fourth;
+}
+.container:nth-child(5){
+    grid-area: fifth;
+}
+.container:nth-child(6){
+    grid-area: sixth;
+}
+.container:nth-child(7){
+    grid-area: seventh;
+}
+.container:nth-child(8){
+    grid-area: eighth;
+}
+.container:nth-child(9){
+    grid-area: ninth;
+}
+
+
+@media screen and (max-width: 550px){
+
+
+  .container{
+   
+    margin: 2px 2px;
+    padding: 2px 2px;
+    
+}
+.image{
+    height: 200px;
+    
+    
+    margin: 2px 2px;
+    padding: 2px 2px;
+    
+}
+.headline{
+    font-size: 1.0rem;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    
+}
+
+.container a{
+ 
+  font-size: 1.0rem;
+ 
+}
+
+.time{
+    font-size: 0.8rem;
+}
+
+}
+

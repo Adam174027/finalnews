@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lobster+Two&family=Montserrat:ital,wght@1,200&family=Oswald:wght@300&display=swap');
+.container{
+    position: relative;
+   
+    width: 100%;
+    
+    overflow: hidden;
+    
+    
+    
+}
+
+
+.name{
+    margin: 10px 10px;
+    padding: 10px;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 1.6rem;
+    text-decoration: underline;
+}
+.flex{
+    display: grid;
+    grid-template-areas: 
+    'first first second third'
+    'first first fourth fifth';
+    grid-gap: 10px;
+    
+}
+
+
+
+@media  screen and (max-width:550px) {
+    
+    .container{
+        margin: 10px 20px;
+      
+        display: flex;
+        flex-direction: column;
+        
+    }
+   .flex{
+  
+    grid-template-areas: 
+    'first first'
+    ' second third'
+    'fourth fifth';
+    grid-gap: 8px;
+    
+}
+   
+}

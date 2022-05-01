@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lobster+Two&family=Montserrat:ital,wght@1,200&family=Oswald:wght@300&display=swap');
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid palegoldenrod;
+    
+}
+.img{
+    position: relative;
+    width: 30%;
+}
+.headline{
+    font-family: 'Montserrat',serif;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
